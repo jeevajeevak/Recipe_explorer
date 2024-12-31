@@ -1,0 +1,114 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Chicken Biriyani",
+      "description": "A mixed rice dish popular in South Asia.",
+      "image": "/images/OIP.jpg",
+      "duration": "1h 12m",
+      "chef": "Bharath",
+      "type": "Non-veg",
+      "rating": 4.7,
+      "ingredients": [
+        { "item": "Chicken", "quantity": "1 KG" },
+        { "item": "Rice", "quantity": "1 KG" },
+        { "item": "Large red onions", "quantity": "3" },
+        { "item": "Yogurt", "quantity": "200 g" },
+        { "item": "Spices", "quantity": "50 g" }
+      ],
+      "directions": [
+        "Heat up oil and fry onions until golden brown.",
+        "Marinate chicken with spices, yogurt, and fried onions.",
+        "Cook on medium heat until done."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Grilled Fish",
+      "description": "A healthy and flavorful fish dish.",
+      "image": "/images/grilledfish.jpg",
+      "duration": "45m",
+      "chef": "John Doe",
+      "type": "Non-veg",
+      "rating": 4.8,
+      "ingredients": [
+        { "item": "Fish fillets", "quantity": "4" },
+        { "item": "Lemon", "quantity": "2" },
+        { "item": "Garlic", "quantity": "4 cloves" },
+        { "item": "Olive oil", "quantity": "3 tbsp" },
+        { "item": "Herbs", "quantity": "2 tbsp" }
+      ],
+      "directions": [
+        "Marinate the fish with lemon juice, garlic, olive oil, and herbs.",
+        "Preheat the grill to medium heat.",
+        "Grill the fish for 5-7 minutes on each side."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Mutton Curry",
+      "description": "A rich and spicy curry made with tender mutton.",
+      "image": "/images/mutton.jpg",
+      "duration": "1h 30m",
+      "chef": "Ayesha Khan",
+      "type": "Non-veg",
+      "rating": 4.6,
+      "ingredients": [
+        { "item": "Mutton", "quantity": "1 KG" },
+        { "item": "Onions", "quantity": "3" },
+        { "item": "Tomatoes", "quantity": "2" },
+        { "item": "Ginger-garlic paste", "quantity": "2 tbsp" },
+        { "item": "Spices", "quantity": "30 g" }
+      ],
+      "directions": [
+        "Heat oil and sauté onions until golden brown.",
+        "Add ginger-garlic paste, tomatoes, and spices.",
+        "Add mutton and cook until tender."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Prawn Stir Fry",
+      "description": "A quick and delicious stir-fried prawn recipe.",
+      "image": "/images/prawn.jpg",
+      "duration": "30m",
+      "chef": "Sara Lee",
+      "type": "Non-veg",
+      "rating": 4.5,
+      "ingredients": [
+        { "item": "Prawns", "quantity": "500 g" },
+        { "item": "Bell peppers", "quantity": "2" },
+        { "item": "Garlic", "quantity": "3 cloves" },
+        { "item": "Soy sauce", "quantity": "2 tbsp" },
+        { "item": "Oil", "quantity": "2 tbsp" }
+      ],
+      "directions": [
+        "Heat oil in a pan and sauté garlic until fragrant.",
+        "Add prawns and stir fry for 3-5 minutes.",
+        "Add bell peppers and soy sauce, then cook for 5 more minutes."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Chicken Tikka Masala",
+      "description": "A creamy and flavorful chicken dish.",
+      "image": "/images/chicken-tikka.jpg",
+      "duration": "1h 15m",
+      "chef": "Raj Sharma",
+      "type": "Non-veg",
+      "rating": 4.9,
+      "ingredients": [
+        { "item": "Chicken", "quantity": "1 KG" },
+        { "item": "Yogurt", "quantity": "200 g" },
+        { "item": "Tomato puree", "quantity": "250 g" },
+        { "item": "Spices", "quantity": "50 g" },
+        { "item": "Cream", "quantity": "100 g" }
+      ],
+      "directions": [
+        "Marinate chicken with yogurt and spices.",
+        "Grill or bake the chicken until cooked.",
+        "Cook tomato puree with spices, then add grilled chicken and cream."
+      ]
+    }
+  ]
+}

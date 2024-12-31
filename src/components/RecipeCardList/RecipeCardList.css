@@ -1,0 +1,52 @@
+.recipe-card-list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden; /* Hide overflowing content */
+    margin: 20px 0;
+  }
+  
+  .scroll-container {
+    display: flex;
+    gap: 15px; /* Space between cards */
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+    scrollbar-width: none; /* Hide scrollbar for non-webkit browsers */
+  }
+  
+  .scroll-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for webkit browsers */
+  }
+  
+  .scroll-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+  }
+  
+  .scroll-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  

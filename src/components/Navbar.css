@@ -1,0 +1,106 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(221, 221, 221, 0.5); /* Light border for visibility */
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.navbar-company-name {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 24px;
+  color:  #ffa500;
+  white-space: nowrap;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: #fff;
+  margin-bottom: 10px; /* For spacing in narrow layouts */
+}
+
+.search-icon {
+  margin-right: 5px;
+  color: #666;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 150px;
+}
+
+.profile-icon {
+  margin-left: 20px;
+  font-size: 24px;
+  color: #ffa500;
+  cursor: pointer;
+  position: relative;
+  top: -4px;
+  transition: transform 0.2s ease;
+}
+
+.profile-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .navbar-left,
+  .navbar-right {
+      width: 100%;
+      justify-content: space-between;
+      margin-bottom: 10px;
+  }
+
+  .search-container {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  .search-input {
+      width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-company-name {
+      font-size: 20px;
+  }
+
+  .profile-icon {
+      font-size: 20px;
+  }
+}

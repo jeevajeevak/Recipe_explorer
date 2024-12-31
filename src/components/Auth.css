@@ -1,0 +1,87 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f5f0;
+   /* background-image: url('https://i.imgur.com/LyJG9OV.png'); /* Use a seamless food icon pattern */
+    background-repeat: repeat;
+    background-size: contain;
+  }
+  
+  /* Center the form on the page */
+  .auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Card styles */
+  .auth-card {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow:0 0 100px 0px rgb(255 213 145 / 86%);
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* Header styles */
+  .auth-card h2 {
+    color: #ffa500;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Input field styles */
+  .auth-card input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styles */
+  .auth-card button {
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .auth-card button:hover {
+    background-color: #e68a00;
+  }
+  
+  /* Link styles */
+  .auth-card a {
+    display: block;
+    margin-top: 15px;
+    color: #ffa500;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .auth-card p {
+    display: block;
+    margin-top: 15px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .auth-card p .sign-in-link {
+    color: #ffa500;
+    text-decoration: underline;/* Remove underline */
+    display: inline; /* Ensures the link stays on the same line */
+  }

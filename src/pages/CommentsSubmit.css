@@ -1,0 +1,53 @@
+.comments-submit-form {
+    flex: 0 0 30%; /* Occupy 30% of the width */
+    background-color: #f8f8f8; /* Light gray background */
+    padding: 20px; /* Add some padding for spacing */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .comments-submit-form h3 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+  }
+  
+  .comments-submit-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .comments-submit-form input,
+  .comments-submit-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+  
+  .comments-submit-form textarea {
+    resize: vertical; /* Allow resizing only vertically */
+  }
+  
+  .comments-submit-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Blue button */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .comments-submit-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
